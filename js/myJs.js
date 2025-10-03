@@ -1,16 +1,16 @@
 const textConfig = {
-  text1: "Hello tngan !",
-  text2: "Tui muốn hỏi tngan 1 câu hỏi",
-  text3: "Tngan có ghét tui hong ._.",
-  text4: "Nếu TNgan thoát ra mà k trl là TNgan có ghét tui đó:(",
-  text5: "Tất nhiên là hong roài:))",
-  text6: "Có, siu siu ghét",
-  text7: "Lí do TNgan ghét tui :vvvv",
-  text8: "Gửi cho tui <3",
-  text9: "Vì TNgan bị VQ chọc quài nên ghét",
-  text10: "Thấy chưa biết ngay mà:(((",
+  text1: "Helo cậu!",
+  text2: "Tớ Muốn Hỏi Cậu Một Câu Hỏi <3",
+  text3: "Cậu Có Thích Tớ Không ._.",
+  text4: "Nếu cậu ko trả lời mà thoát ra tức là muốn làm vợ tớ rùi đó nha :v",
+  text5: "Cậu mơ à???",
+  text6: "Tất Nhiên Là Có rùiii<3",
+  text7: "Lí do cậu thích tớ đi :vvvv",
+  text8: "Gửi cho tớ <3",
+  text9: "Vì tớ thích cậu mất rồi",
+  text10: "Tớ biết mà ^^ Yêu cậu 300.000",
   text11:
-    "Vậy TNgan cho tui xin lỗi nha, mốt tui hong chọc TNgan nua🥹",
+    "Tối nay tớ qua đón cậu đi chơi nhaa :v Còn giờ thì cậu xem hết bí mật này nha!",
   text12: "Okii lunn <3",
 };
 
@@ -107,7 +107,7 @@ $(document).ready(function () {
 
   // show popup
   $("#yes").click(function () {
-    var audio = new Audio("sound/love.mp3");
+    var audio = new Audio("sound/tick.mp3");
     audio.play();
     Swal.fire({
       title: textConfig.text7,
@@ -138,7 +138,7 @@ $(document).ready(function () {
           text: textConfig.text11,
           confirmButtonColor: "#83d0c9",
           onClose: () => {
-            window.location = "https://shiin-vn.github.io/crussh/";
+            window.location = "https://cuongnobro.github.io/Baby/";
           },
         });
       }
